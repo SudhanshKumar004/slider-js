@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #slider{
+            width: 500px;
+            border: 5px solid gray;
+            overflow-x: hidden;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #slider #slidediv{
+            display: flex;
+        }
+
+        #slider #slidediv div img{
+            width:500px;
+            height: 280px;
+            
+        }
+    </style>
+</head>
+<body onload="slider();">
+        <section id="slider">
+            <article id="slidediv">
+                <div>
+                    <img src="https://i.pinimg.com/736x/fd/89/cc/fd89cce0b421b6b4d37959ffc4422efc.jpg" alt="">
+                </div>
+                <div>
+                    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="">
+                </div>
+                <div>
+                    <img src="https://wallpapercave.com/wp/wp3216289.jpg" alt="">
+                </div>
+            </article>
+        </section>
+
+    <script src="./slider.js"></script>
+</body>
+</html>
